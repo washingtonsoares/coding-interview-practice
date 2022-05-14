@@ -9,9 +9,6 @@ while True:
             text1 = text2
             text2 = aux
 
-        size = 0
-        results = dict()
-
         maxSubStr = 0
 
         if (text1 in text2):
