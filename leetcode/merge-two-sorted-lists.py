@@ -29,8 +29,8 @@ class Solution:
         list1_nodes = self.get_all_nodes(list1)
         list2_nodes = self.get_all_nodes(list2)
 
-        all_nodes_sorted = sorted([] +
-                                  list1_nodes + list2_nodes, key=lambda item: item.val)
+        all_nodes_sorted = sorted(
+            list1_nodes + list2_nodes, key=lambda item: item.val)
 
         for i, node in enumerate(all_nodes_sorted[:-1]):
             node.next = all_nodes_sorted[i+1]
