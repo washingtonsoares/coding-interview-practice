@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/repeated-string/problem
+
 function repeatedStringFast(s, n) {
   function sumAllCharsA(s) {
     let sum = 0;
