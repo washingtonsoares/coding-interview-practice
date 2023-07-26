@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/counting-valleys/problem
+
 function countingValleys(steps, path) {
     let altitude = 0;
     let valleys = 0;
